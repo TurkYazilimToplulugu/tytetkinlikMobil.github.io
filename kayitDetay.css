@@ -1,0 +1,173 @@
+.b{
+    margin: 8%;
+}
+
+.p1{
+    background-color: rgba(0, 0, 255, 0.904);
+    padding: 1%;
+    border-radius: 15px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color: black;
+    
+}
+.p1:hover{
+    font-style:italic;
+    transition: 480ms;
+    transform: scale(1.03);
+    background-color: rgba(255, 0, 0, 0.705);
+}
+.a1{
+    color: rgb(25, 0, 255);
+    font-style: normal;
+    position: absolute;
+    top: 25px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    padding: 1%;
+    border-radius: 15px;
+    font-size: 20px;
+    left: 32%;
+    
+}
+.a1:hover{
+
+    transition: 480ms;
+    transform: scale(1.1);
+    background-color: rgba(255, 0, 0, 0.705);
+    font-style: italic;
+    
+}
+
+.a2{
+    color: rgb(25, 0, 255);
+    font-style: normal;
+    position: absolute;
+    top: 25px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    padding: 1%;
+    border-radius: 15px;
+    font-size: 20px;
+    left: 52%;
+    text-decoration: none;    
+}
+.a2:hover{
+
+    transition: 480ms;
+    transform: scale(1.1);
+    background-color: rgba(255, 0, 0, 0.705);
+    font-style: italic;
+
+}
+.mBack{
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 95%;
+    height: 80px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    border-radius: 15px;
+}
+.mBack:hover{
+    transition: 480ms;
+    background-color: rgba(255, 0, 0, 0.507);
+
+}
+.form{
+    position: absolute;
+    top: 600px;
+    left: 30%;
+
+}
+.h1{
+    position: absolute;
+    top: 531px;
+    left: 40%;
+    font-family: 'Roboto Mono', monospace;
+}
+@media (min-width: 320px){
+    .b{
+        margin: 8%;
+        margin-bottom: 3%;
+    }
+    .a1{
+        color: rgb(25, 0, 255);
+        font-style: normal;
+        position: absolute;
+        top: 3.5%;
+        font-family: 'Roboto Mono', monospace;
+        background-color: black;
+        padding: 2%;
+        border-radius: 11px;
+        font-size: 15px;
+        left: 6%;
+        text-decoration: none;
+    }
+    .a2{
+        color: rgb(25, 0, 255);
+        font-style: normal;
+        position: absolute;
+        top: 3.5%;
+        font-family: 'Roboto Mono', monospace;
+        background-color: black;
+        padding: 2%;
+        border-radius: 11px;
+        font-size: 15px;
+        left: 69%;
+        text-decoration: none;
+    }
+    .p1{
+        background-color: rgba(0, 0, 255, 0.904);
+        padding: 2%;
+        border-radius: 15px;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 15px;
+        color: black;
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        left: 5%;
+    }
+    .mBack{
+        background-color: rgba(0, 0, 0, 0.507);
+        width: 95%;
+        height: 10%;
+        position: absolute;
+        top: 1.8%;
+        left: 3%;
+        border-radius: 15px;
+    }
+    .mBack:hover{
+        transition: 480ms;
+    }
+    .a2:hover{
+        transition: 480ms;
+    }
+    .a1:hover{
+        transition: 480ms;
+    }
+    .p1:hover{
+        transition: 480ms;
+    }
+    .form{
+        width: 100%; 
+        height: 100%;
+        position: absolute;
+        left: 0.2%;
+        right: auto;
+        top: 180%;
+        margin-bottom: 20px;
+    }
+    .h1{
+        text-align: center;
+        position: absolute;
+        left: 30%;
+        top: 168%;
+        background-color: black;
+        color: white;
+        padding: 2%;
+        border-radius: 15px;
+        font-size: medium;
+    }
+}
